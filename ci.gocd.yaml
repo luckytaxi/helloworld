@@ -11,6 +11,7 @@ pipelines:
             build: # name of the job
               tasks:
                - exec: # indicates type of task
-                   arguments:                     
+                   arguments:
+                     - -c
                      - helo
-                   command: /bin/bash                   
+                   command: bash                   
