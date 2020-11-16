@@ -1,11 +1,5 @@
-environments:
-  example:
-    environment_variables:
-      EXAMPLE_DEPLOYMENT: testing
-    pipelines:
-      - yaml-example
 pipelines:
-  yamlpipe1:
+  pipe1:
     group: simple
     materials:
       mygit:  # this is the name of material
@@ -17,4 +11,4 @@ pipelines:
             build: # name of the job
               tasks:
                - exec: # indicates type of task
-                   command: echo "fs"
+                   command: echo "sdf"
