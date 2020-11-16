@@ -11,4 +11,6 @@ pipelines:
             build: # name of the job
               tasks:
                - exec: # indicates type of task
-                   command: /bin/echo "sdf"
+                   arguments:                     
+                     - helo
+                   command: /bin/bash                   
