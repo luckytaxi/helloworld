@@ -12,5 +12,6 @@ pipelines:
               tasks:
                - exec: # indicates type of task
                    arguments:
-                     - build -t blah .
-                   command: docker
+                     - c
+                     - docker build -t blah .
+                   command: /bin/bash
