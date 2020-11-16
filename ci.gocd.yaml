@@ -13,5 +13,5 @@ pipelines:
                - exec: # indicates type of task
                    arguments:
                      - -c
-                     - helo
+                     - echo "helo"
                    command: bash                   
